@@ -70,3 +70,14 @@ Tämä luo ajettavan tiedoston projektin juureen: target/ping.war
 8. Muuta /ping/resources/ping/{nimi} rajapinta palauttamaan responsen ContentTypenä text/html application/json tilalla
 9. Jätä kommentti minkä koit haastavimmaksi tehtävässä ja kauanko suurinpiirtein käytit aikaa
 10. Bonus: löydätkö koodista kohtia, jotka tulisi tehdä toisin?
+
+# Vastaukset
+(Tehtäviin joissa ei muokattu pingiä)
+
+Tehtävä 6: http://localhost:8080/ping/resources/characters/
+
+Tehtävä 7: esim. http://localhost:8080/ping/resources/characters/class/Fighter
+
+Tehtävä 9: Haastavinta oli totutella taas käyttämään Javaa kun on tottunut pythoniin. Tehtävälle 9 olisi varmaan ollut helpompi/luettavampi tapa. Aikaa meni ~3h mukaanlukien työkalujen asentaminen/päivittäminen
+
+Tehtävä 10: Olisin ehkä itse tehnyt pathin /ping/{name} niin että kaikki pingit palauttaa /pings/ ja /pings/{name} palauttaa joko sen yhden (tai kaikki joilla sama nimi jos useampi) tai 404. 
