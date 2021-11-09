@@ -14,7 +14,6 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.util.List;
 
 /*
 * Tässä luokassa määritellään rest API:n /ping resourcen pathit ja saatavilla olevat HTTP komennot.
