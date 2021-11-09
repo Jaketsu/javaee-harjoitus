@@ -2,6 +2,8 @@ package fi.ptuomaal.ping.entity;
 
 import javax.persistence.*;
 
+/*Pong luokka määrittelee Pong olioiden attribuutit ja funktiot. Pong oliolla on kaksi attribuuttia: id ja nimi,
+* konstruktori pong olioille, sekä setterit ja getterit niin id:lle kuin nimelle. */
 @Entity
 @NamedQueries({
         @NamedQuery
